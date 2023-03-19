@@ -24,8 +24,8 @@ def Extarcat_zip(Zfile,password):
 def main():
     parser = argparse.ArgumentParser()
     print('[-h help] [-f DISTNAME] [-d ZIPNAME]')
-    parser.add_argument('-f',type=str,dest='distname',help='place Dictionary path',default="")
-    parser.add_argument('-d',type =str,dest ='zipname',help='place zipfile',default="")
+    parser.add_argument('-f',type=str,dest='distname',help='please Dictionary path',default="")
+    parser.add_argument('-d',type =str,dest ='zipname',help='please zipfile',default="")
     temp = parser.parse_args()
     zipname = temp.zipname
     distname = temp.distname
