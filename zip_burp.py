@@ -23,7 +23,6 @@ def Extarcat_zip(Zfile,password):
 # 定义主函数
 def main():
     parser = argparse.ArgumentParser()
-    print('[-h help] [-f DISTNAME] [-d ZIPNAME]')
     parser.add_argument('-f',type=str,dest='distname',help='please Dictionary path',default="")
     parser.add_argument('-d',type =str,dest ='zipname',help='please zipfile',default="")
     temp = parser.parse_args()
